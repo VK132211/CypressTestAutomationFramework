@@ -1,0 +1,22 @@
+{
+    "environments": {
+        "QA": {
+            "url": "https://automationpractice.techwithjatin.com/",
+            "MAX_NUMBER_OF_ATTEMPTS": 3,
+            "browser": "chrome",
+            "apiUrl": "https://jsonplaceholder.typicode.com/"
+        },
+        "DEV": {
+            "url": "https://automationpractice.techwithjatin.com/",
+            "MAX_NUMBER_OF_ATTEMPTS": 2,
+            "browser": "chrome",
+            "apiUrl": "https://jsonplaceholder.typicode.com/"
+        },
+        "UAT": {
+            "url": "https://automationpractice.techwithjatin.com/",
+            "MAX_NUMBER_OF_ATTEMPTS": 1,
+            "browser": "chrome",
+            "apiUrl": "https://jsonplaceholder.typicode.com/"
+        }
+    }
+}

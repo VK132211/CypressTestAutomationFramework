@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "types": ["cypress", "node","cypress-plugin-api"],
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "strict": true,
+    "module": "nodenext"
+  },
+  "include": ["**/*.ts", "./cypress/support/cypress.d.ts"]
+}
